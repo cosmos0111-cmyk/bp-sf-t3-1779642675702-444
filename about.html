@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <meta name="description" content="마포에서 가장 핫한 AI 트렌드 강남 셔츠룸. 스트릿 브루탈리즘 감성의 프리미엄 공간, 거친 콘크리트 위에 펼쳐지는 새로운 경험. 상세 정보와 자주 묻는 질문을 확인하세요. 010-6279-0862">
+    <meta name="keywords" content="강남 셔츠룸, 마포 셔츠룸, AI 트렌드 셔츠룸, 브루탈리즘 셔츠룸, raw-concrete, 프리미엄 셔츠룸, 정보, FAQ, 010-6279-0862">
+    <meta name="author" content="Brutalist Avantgarde">
+    <link rel="canonical" href="https://sf-t3-1779642675702-444.vercel.app/info">
+    <meta property="og:title" content="강남 셔츠룸 | 마포 AI 트렌드 정보">
+    <meta property="og:description" content="마포에서 가장 핫한 AI 트렌드 강남 셔츠룸. 거친 콘크리트 감성의 프리미엄 공간, 모든 궁금증을 해결해드립니다. 010-6279-0862">
+    <title>정보 | 강남 셔츠룸 마포 AI 트렌드</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #1a1a1a;
+            color: #d4d4d4;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.03) 2px, rgba(255,255,255,0.03) 4px),
+                repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(255,255,255,0.03) 2px, rgba(255,255,255,0.03) 4px);
+            pointer-events: none;
+            z-index: 0;
+        }
+        header {
+            background: #2a2a2a;
+            padding: 20px 40px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 4px solid #ff6b35;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header::after {
+            content: "RAW CONCRETE // INFO";
+            position: absolute;
+            bottom: -12px;
+            right: 20px;
+            font-size: 10px;
+            color: #ff6b35;
+            letter-spacing: 3px;
+            background: #1a1a1a;
+            padding: 2px 8px;
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff6b35;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            text-decoration: none;
+        }
+        .logo span {
+            color: #d4d4d4;
+            font-size: 14px;
+            display: block;
+            letter-spacing: 2px;
+        }
+        nav {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+        nav a {
+            color: #d4d4d4;
+            text-decoration: none;
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 8px 12px;
+            border: 1px solid transparent;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            border-color: #ff6b35;
+            color: #ff6b35;
+        }
+        .phone-link {
+            color: #ff6b35;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid #ff6b35;
+            padding: 8px 16px;
+            transition: all 0.3s ease;
+        }
+        .phone-link:hover {
+            background: #ff6b35;
+            color: #1a1a1a;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 6px;
+            background: none;
+            border: none;
+            padding: 8px;
+        }
+        .hamburger span {
+            width: 28px;
+            height: 3px;
+            background: #ff6b35;
+            transition: all 0.3s ease;
+        }
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(6px, -6px);
+        }
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 40px;
+            position: relative;
+            z-index: 1;
+        }
+        h1 {
+            font-size: 48px;
+            color: #ff6b35;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ff6b35;
+            padding-bottom: 16px;
+        }
+        h2 {
+            font-size: 28px;
+            color: #ff6b35;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin: 40px 0 20px;
+        }
+        h3 {
+            font-size: 20px;
+            color: #d4d4d4;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+        p {
+            line-height: 1.8;
+            margin-bottom: 16px;
+            font-size: 16px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin: 40px 0;
+        }
+        .info-card {
+            background: #2a2a2a;
+            padding: 32px;
+            border: 1px solid #3a3a3a;
+            position: relative;
+        }
+        .info-card::before {
+            content: "//";
+            position: absolute;
+            top: -12px;
+            left: 16px;
+            color: #ff6b35;
+            font-size: 20px;
+            background: #1a1a1a;
+            padding: 0 8px;
+        }
+        .info-card ul {
+            list-style: none;
+            margin-top: 16px;
+        }
+        .info-card ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #3a3a3a;
+            font-size: 15px;
+        }
+        .info-card ul li::before {
+            content: "> ";
+            color: #ff6b35;
+        }
+        .faq-item {
+            background: #2a2a2a;
+            padding: 24px;
+            margin-bottom: 16px;
+            border-left: 4px solid #ff6b35;
+        }
+        .faq-item h3 {
+            color: #ff6b35;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        .faq-item p {
+            margin-bottom: 0;
+            font-size: 15px;
+        }
+        .cta-section {
+            text-align: center;
+            margin: 60px 0;
+            padding: 40px;
+            background: #2a2a2a;
+            border: 2px solid #ff6b35;
+        }
+        .cta-section p {
+            font-size: 20px;
+            margin-bottom: 24px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #ff6b35;
+            color: #1a1a1a;
+            padding: 16px 48px;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            background: #e55a2b;
+            transform: scale(1.02);
+        }
+        footer {
+            background: #2a2a2a;
+            padding: 40px;
+            text-align: center;
+            border-top: 4px solid #ff6b35;
+            margin-top: 60px;
+        }
+        footer p {
+            font-size: 12px;
+            color: #888;
+            letter-spacing: 2px;
+        }
+        @media (max-width: 768px) {
+            header {
+                padding: 16px;
+            }
+            .hamburger {
+                display: flex;
+            }
+            nav {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: #2a2a2a;
+                flex-direction: column;
+                padding: 20px;
+                border-bottom: 4px solid #ff6b35;
+                gap: 12px;
+            }
+            nav.open {
+                display: flex;
+            }
+            nav a {
+                font-size: 16px;
+                padding: 12px;
+                width: 100%;
+                text-align: center;
+            }
+            .phone-link {
+                font-size: 16px;
+                padding: 12px;
+                width: 100%;
+                text-align: center;
+            }
+            main {
+                padding: 32px 16px;
+            }
+            h1 {
+                font-size: 32px;
+            }
+            h2 {
+                font-size: 22px;
+            }
+            .info-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            .info-card {
+                padding: 24px;
+            }
+            .cta-section {
+                padding: 24px;
+            }
+            .cta-button {
+                padding: 14px 32px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo">
+                BRUTAL SHIRT
+                <span>마포 · AI 트렌드</span>
+            </a>
+            <nav id="mainNav">
+                <a href="/">홈</a>
+                <a href="/info" style="color:#ff6b35;border-color:#ff6b35;">정보</a>
+                <a href="/gallery">갤러리</a>
+                <a href="/review">후기</a>
+                <a href="tel:010-6279-0862" class="phone-link">010-6279-0862</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <h1>정보</h1>
+        <p>야, 여기 다 모여있어. 마포에서 가장 핫한 AI 트렌드 셔츠룸, 강남 셔츠룸의 모든 것. 궁금한 거 생기면 그냥 전화해, 친절하게 알려줄게. 010-6279-0862.</p>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>기본 정보</h3>
+                <ul>
+                    <li>위치: 마포구 홍대입구 근처</li>
+                    <li>영업 시간: 24시간 (연중무휴)</li>
+                    <li>주차: 전용 주차장 완비</li>
+                    <li>연락처: 010-6279-0862</li>
+                    <li>예약: 전화 or 카톡</li>
+                </ul>
+            </div>
+            <div class="info-card">
+                <h3>시설 & 서비스</h3>
+                <ul>
+                    <li>프리미엄 셔츠룸 (최신 AI 트렌드 적용)</li>
+                    <li>스트릿 브루탈리즘 인테리어</li>
+                    <li>최고급 사운드 시스템</li>
+                    <li>무료 음료 & 스낵바</li>
+                    <li>VIP 룸 별도 운영</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>자주 묻는 질문</h2>
+
+        <div class="faq-item">
+            <h3>Q. 처음인데 괜찮을까?</h3>
+            <p>당연하지, 형. 우리 여기 처음 오는 사람들 엄청 많아. 직원들이 친절하게 안내해주니까 부담 갖지 말고 와. 오히려 첫 방문이면 더 재밌게 즐길 수 있어. AI 트렌드 시스템이 처음엔 좀 신기할 수도 있는데, 금방 적응할 거야.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Q. 가격은 어떻게 돼?</h3>
+            <p>형, 가격은 전화로 물어보는 게 제일 정확해. 010-6279-0862로 전화하면 실시간으로 알려줄게. 근데 말해주자면, 퀄리티 대비 가격 진짜 착하다고 자부해. 다른 데 비하면 서비스가 훨씬 좋거든.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Q. 단체로 가도 돼?</h3>
+            <p>완전 가능! 우리 VIP 룸이 있어서 4~6명 정도 단체로 오면 진짜 재밌게 놀 수 있어. 생일 파티, 회식, 모임 다 OK. 미리 전화만 주면 룸도 알아서 준비해줄게. 단체 예약은 꼭 전화로! 010-6279-0862.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Q. AI 트렌드라는 게 뭔데?</h3>
+            <p>아, 그거 궁금하지? 우리 셔츠룸은 최신 AI 기술을 접목해서 음악, 조명, 분위기를 실시간으로 맞춰주는 시스템이야. 손님 취향에 따라 공간 자체가 변한다고 생각하면 돼. 직접 와서 체험해봐야 진짜 느낌을 알 수 있어. 완전 신세계임.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Q. 예약은 꼭 해야 해?</h3>
+            <p>워크인도 가능하지만, 주말이나 저녁 시간대는 예약이 필수야. 자리가 금방 차니까. 전화로 간단하게 예약하고 오는 걸 추천해. 번거롭지 않아. 010-6279-0862로 전화하면 1분 만에 끝나.</p>
+        </div>
+
+        <div class="cta-section">
+            <p>더 궁금한 게 있다면? 언제든 전화해!</p>
+            <a href="tel:010-6279-0862" class="cta-button">010-6279-0862</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 BRUTAL SHIRT · 마포 AI 트렌드 강남 셔츠룸</p>
+        <p>RAW CONCRETE · STREET BRUTALISM · 010-6279-0862</p>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.getElementById('mainNav');
+
+        hamburger.addEventListener('click', function() {
+            this.classList.toggle('active');
+            nav.classList.toggle('open');
+        });
+
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                nav.classList.remove('open');
+            });
+        });
+    </script>
+</body>
+</html>
